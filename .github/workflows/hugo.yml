@@ -57,6 +57,8 @@ jobs:
           hugo \
             --minify \
             --destination ../public \
+            --relativeURLs \
+            --canonifyURLs=false \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
