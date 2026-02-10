@@ -81,13 +81,13 @@ enableEmoji = true
     [[params.contacts]]
         label = "phone"
         value = "+43 (0) 662 / 8044-7584"
-        url = "tel:+43 0662 8044 7584"
+        url = "tel:+4366280447584"
         icon = "fa fa-phone"
 
     [[params.contacts]]
         label = "email"
         value = "martin.sudmanns@plus.ac.at"
-        url = "martin.sudmanns@plus.ac.at"
+        url = "mailto:martin.sudmanns@plus.ac.at"
         icon = "fa fa-envelope"
 
     # Add additional contacts here!

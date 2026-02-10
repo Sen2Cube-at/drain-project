@@ -75,3 +75,7 @@ a.btn{
     font-family: inherit;
     font-weight: 400;
 }
+
+#contact .post-content p a:hover {
+    color: var(--highlight);
+}

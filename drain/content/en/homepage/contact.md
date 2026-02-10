@@ -11,4 +11,4 @@ Austria
 
 {{<contact_list>}}
 
-Let us get in touch!
+Get in touch!
