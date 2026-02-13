@@ -10,7 +10,7 @@ header_logo: "images/logo-alt.png"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
 header_headline: "DRAIN Project"
-header_subheadline: "<b>Using Earth observation, weather, and in-situ data to protect our soils"
+header_subheadline: "Using Earth observation, weather, and in-situ data to protect our soils"
 
 # Add a 'Go back to top' item to the navigation menu
 # Title: name of navigation menu entry

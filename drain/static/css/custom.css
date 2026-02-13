@@ -48,6 +48,7 @@
 }
 
 body {
+    /* Base typography: light system font and comfortable line height */
     font-family: system-ui, sans-serif;
     font-weight: 300;
     line-height: 1.6;
@@ -59,10 +60,18 @@ h3,
 h4,
 h5,
 h6 {
+    /* Headings slightly heavier than body text, still airy */
     font-weight: 400;
+
 }
 
 a.btn{
+    /* Keep button text white regardless of theme/hover overrides */
     color: white!important;
 }
 
+#site-head .blog-description {
+    /* Match hero subheadline to the main headline's font family/weight */
+    font-family: inherit;
+    font-weight: 400;
+}
