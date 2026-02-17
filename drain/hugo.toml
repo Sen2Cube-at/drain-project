@@ -105,7 +105,7 @@ enableEmoji = true
     contentDir = "content/en"
 
   [languages.de]
-    title = "Erika Musterfrau - Ernährungshilfe & Kochberatung"
+    title = "DRAIN Projekt"
     weight = 20
     contentDir = "content/de"
     languageName = "Deutsch"

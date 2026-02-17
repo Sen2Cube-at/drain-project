@@ -1,16 +1,8 @@
 ---
-title: "Willkommen"
-weight: 1
+title: "Projektziele"
+weight: 10
 ---
 
-Das ist die deutsche Beispielseite.
+We combine Earth observation, meteorological, and in-situ data for prediction of soil erosion when strong precipitation is expected. A collaboration between academia, industry, municipalities, and farmers to protect our soils.
 
-`Hugo-Scroll` theme alternates colors of sections that are placed on single page.
-The landing screen is meant to be visually striking.
-
-Single-page approach is oriented towards small to medium content length, that won't overwhelm the user.
-You can also delegate lengthier, less important or more sizeable content to [dedicated pages](services).
-
-> The belly rules the mind. --- spanish proverb
-
-By the way this welcome section won't show in the cover menu.
+Wir verknüpfen Erdbeobachtung, meteorologische, und in-situ Daten, um die Bodenerosion zu prognostizieren, wenn starke Niederschläge erwartet werden. Eine Kollaboration von Universität, Industrie, Gemeinden und Landwirt:innen soll dafür sorgen, dass unsere Böden geschütz werden.

@@ -6,11 +6,11 @@ header_image: "images/cover-image.jpg"
 header_use_video: false
 #
 # Optional header logo. CSS: `#blog-logo`, with max-height defined, optimize to prevent scaling
-header_logo: "images/chef-hat.png"
+header_logo: "images/logo-alt.png"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
-header_headline: "Erika Musterfrau"
-header_subheadline: "<b>Ernährungs</b>hilfe & <b>Koch</b>beratung"
+header_headline: "DRAIN Projekt"
+header_subheadline: "Dynamische Risikokarte für Bodenerosion"
 
 # Add a 'Go back to top' item to the navigation menu
 # Title: name of navigation menu entry
