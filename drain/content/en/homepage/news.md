@@ -12,9 +12,13 @@ All farmers in Austria have the opportunity to participate in the DRAIN project!
 
 Your participation helps us, but it also offers advantages for you: twice a year there will be workshops focused on soil protection and soil erosion, where experts will be invited to present interesting new developments. During the development phase, you will already receive access to the system as well as to satellite data, meteorological data, and other geospatial data.
 
-More information can be found in [this document (german)](/documents/DRAIN_Informationen_zur_Mitarbeit.pdf) and at a second workshop on 25 March 2026 (online and in person in Fernitz-Mellach). You can register using the following link:
+Register here to contribute to the project: 
 
-[https://forms.cloud.microsoft/e/PCWVhmG7SN](https://forms.cloud.microsoft/e/PCWVhmG7SN).
+[https://forms.cloud.microsoft/e/mW2fKYCNkq](https://forms.cloud.microsoft/e/mW2fKYCNkq)
+
+More information can be found in [this document (german)](/documents/DRAIN_Informationen_zur_Mitarbeit.pdf) and at a second workshop on 25 March 2026 (online and in person in Fernitz-Mellach). You can register to attend the workshop using the following link:
+
+[https://forms.cloud.microsoft/e/PCWVhmG7SN](https://forms.cloud.microsoft/e/PCWVhmG7SN)
 
 ---
 
