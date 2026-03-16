@@ -17,3 +17,8 @@ Fernitz-Mellach
 
 ##### Associated Partners 
 BAW
+
+##### Funding
+
+This project is funded by the FFG ([https://www.ffg.at](https://www.ffg.at)).
+The FFG is the central national funding organization and strengthens Austria’s capacity for innovation.

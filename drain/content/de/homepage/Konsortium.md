@@ -17,3 +17,7 @@ Fernitz-Mellach
 
 ##### Associated Partners 
 BAW
+
+##### Förderung
+
+Dieses Projekt wird aus Mitteln der FFG gefördert ([https://www.ffg.at](https://www.ffg.at)). Die FFG ist die zentrale nationale Förderorganisation und stärkt Österreichs Innovationskraft.
