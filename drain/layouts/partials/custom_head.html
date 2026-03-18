@@ -44,3 +44,15 @@
 <link rel="icon" type="{{ .MediaType.Type }}" href="{{ .RelPermalink }}" />
 <link rel="apple-touch-icon" href="{{ .RelPermalink }}" />
 {{ end }}
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".obfuscated-email").forEach(function (link) {
+        var encoded = link.dataset.address;
+        if (!encoded) return;
+
+        var address = atob(encoded);
+        link.href = "mailto:" + address;
+    });
+});
+</script>
