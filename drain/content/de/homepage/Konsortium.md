@@ -17,7 +17,7 @@ alt="Logo der Universitat Salzburg"
 url="https://www.plus.ac.at/geoinformatik/?lang=en"
 link_label="Zu Z_GIS"
 variant="plain"
-description="Forschungspartner fur Geoinformatik und Erdbeobachtung."
+description="Forschungspartner für Geoinformatik und Erdbeobachtung."
 >}}
 {{< logo_card
 name="UBIMET"
@@ -25,7 +25,23 @@ image="images/UBI_Logo_Dark_tagline.jpg"
 alt="UBIMET Logo"
 url="https://www.ubimet.com/"
 link_label="Zu UBIMET"
-description="Partner fur Wetter- und meteorologische Daten."
+description="Partner für Wetter- und meteorologische Daten."
+>}}
+{{< logo_card
+name="AGES"
+image="images/AGES_logo.png"
+alt="AGES logo"
+url="https://www.ages.at"
+link_label="Visit AGES"
+description="Partner für in-situ Messungen und Zusammenarbeit mit Landwirt:innen."
+>}}
+{{< logo_card
+name="BAW Research"
+image="images/BAW_Research_logo.png"
+alt="BAW Research logo"
+url="https://www.baw.at/baw-research.html"
+link_label="Visit BAW Research"
+description="Partner für Erosionsmodellierung."
 >}}
 {{< logo_card
 name="Fernitz-Mellach"
@@ -33,17 +49,11 @@ image="images/FeMe_Logo_RGB.png"
 alt="Fernitz-Mellach Logo"
 url="https://www.fernitz-mellach.gv.at/"
 link_label="Zu Fernitz-Mellach"
-description="Gemeindepartner fur lokale Zusammenarbeit und Feldkontext."
+description="Gemeindepartner für lokale Zusammenarbeit und Feldkontext."
 >}}
 {{< /card_grid >}}
 
-##### Other Partners
-
-{{< text_stack >}}
-Austrian Agency for Health and Food Safety
-{{< /text_stack >}}
-
-##### Associated Partners
+##### Assoziierte Partner
 
 {{< text_stack class="partner-name-list--compact" >}}
 BAW (Bundesamt fur Wasserwirtschaft)
