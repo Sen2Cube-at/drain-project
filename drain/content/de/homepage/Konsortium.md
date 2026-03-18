@@ -37,13 +37,13 @@ description="Gemeindepartner fur lokale Zusammenarbeit und Feldkontext."
 >}}
 {{< /card_grid >}}
 
-##### Weitere Partner
+##### Other Partners
 
 {{< text_stack >}}
 Austrian Agency for Health and Food Safety
 {{< /text_stack >}}
 
-##### Assoziierte Partner
+##### Associated Partners
 
 {{< text_stack class="partner-name-list--compact" >}}
 BAW (Bundesamt fur Wasserwirtschaft)
