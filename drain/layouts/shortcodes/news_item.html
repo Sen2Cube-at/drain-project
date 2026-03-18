@@ -1,0 +1,11 @@
+{{- $linkURL := .Get "link_url" -}}
+{{- $linkExternal := or (strings.HasPrefix $linkURL "http://") (strings.HasPrefix $linkURL "https://") -}}
+
+<article class="news-item">
+    {{ with .Get "date" }}<p class="news-item__date">{{ . }}</p>{{ end }}
+    {{ with .Get "title" }}<h3 class="news-item__title">{{ . }}</h3>{{ end }}
+    <div class="news-item__body">{{ .Inner | markdownify }}</div>
+    {{ with $linkURL }}
+        <a class="news-item__link" href="{{ . | safeURL }}"{{ if $linkExternal }} target="_blank" rel="noopener"{{ end }}>{{ $.Get "link_label" }}</a>
+    {{ end }}
+</article>
