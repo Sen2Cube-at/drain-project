@@ -1,0 +1,8 @@
+{{ range .Site.Params.contacts }}
+    {{ if eq .label "email" }}
+        {{ $display := replace .value "@" " [at] " }}
+        <p><i class="{{ .icon }}"></i>&nbsp;<a class="obfuscated-email" data-address="{{ .value | base64Encode }}" aria-label="Email {{ $display }}">{{ $display }}</a></p>
+    {{ else }}
+        <p><i class="{{ .icon }}"></i>&nbsp;<a href="{{ .url | safeURL }}">{{ .value }}</a></p>
+    {{ end }}
+{{ end }}
