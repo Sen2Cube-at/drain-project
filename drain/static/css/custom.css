@@ -309,7 +309,9 @@ a.btn{
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
     min-height: 0;
+    max-width: 100%;
     padding: 10px 20px;
     border-radius: 6px;
     -webkit-border-radius: 6px;
@@ -553,7 +555,7 @@ a.btn{
 .funding-card__name {
     margin: 0 0 0.45rem;
     color: var(--section-dark-text-color);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
@@ -566,7 +568,7 @@ a.btn{
     margin-top: 0.75rem;
     color: #ffffff;
     font-family: "Oswald", sans-serif;
-    font-size: 0.95rem;
+    font-size: 1.2rem;
     letter-spacing: 0.05em;
     text-decoration: none;
     text-transform: uppercase;
