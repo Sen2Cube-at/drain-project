@@ -28,6 +28,22 @@ link_label="Visit UBIMET"
 description="Weather and meteorological data partner."
 >}}
 {{< logo_card
+name="AGES"
+image="images/AGES_logo.png"
+alt="AGES logo"
+url="https://www.ages.at"
+link_label="Visit AGES"
+description="Partner for in-situ measurements and collaboration with farmers."
+>}}
+{{< logo_card
+name="BAW Research"
+image="images/BAW_Research_logo.png"
+alt="BAW Research logo"
+url="https://www.baw.at/baw-research.html"
+link_label="Visit BAW Research"
+description="Partner for water research."
+>}}
+{{< logo_card
 name="Fernitz-Mellach"
 image="images/FeMe_Logo_RGB.png"
 alt="Fernitz-Mellach logo"
@@ -36,13 +52,6 @@ link_label="Visit Fernitz-Mellach"
 description="Municipal partner for local collaboration and field context."
 >}}
 {{< /card_grid >}}
-
-###### Further partners
-
-{{< text_stack >}}
-Austrian Agency for Health and Food Safety
-
-{{< /text_stack >}}
 
 ###### Associated Partners
 
