@@ -1,0 +1,10 @@
+{{- $class := .Get "class" -}}
+{{- $lines := split (.Inner | strings.TrimSpace) "\n" -}}
+<div class="partner-name-list{{ with $class }} {{ . }}{{ end }}">
+    {{- range $line := $lines -}}
+        {{- $trimmed := strings.TrimSpace $line -}}
+        {{- if $trimmed -}}
+        <p>{{ $trimmed }}</p>
+        {{- end -}}
+    {{- end -}}
+</div>

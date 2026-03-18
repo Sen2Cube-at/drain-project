@@ -1,0 +1,24 @@
+{{- $name := .Get "name" -}}
+{{- $alt := .Get "alt" | default $name -}}
+{{- $url := .Get "url" -}}
+{{- $linkLabel := .Get "link_label" | default $url -}}
+{{- $isExternal := or (strings.HasPrefix $url "http://") (strings.HasPrefix $url "https://") -}}
+{{- $image := false -}}
+{{- with .Get "image" -}}
+    {{- $image = resources.Get . -}}
+{{- end -}}
+
+<article class="funding-card{{ if not $image }} funding-card--placeholder{{ end }}">
+    {{- with $image }}
+    <div class="funding-card__media">
+        <img src="{{ .RelPermalink }}" alt="{{ $alt }}" />
+    </div>
+    {{- end }}
+    <div class="funding-card__content">
+        <h5 class="funding-card__name">{{ $name }}</h5>
+        <div class="funding-card__body">{{ .Inner | markdownify }}</div>
+        {{- with $url }}
+        <a class="funding-card__link" href="{{ . | safeURL }}"{{ if $isExternal }} target="_blank" rel="noopener"{{ end }}>{{ $linkLabel }}</a>
+        {{- end }}
+    </div>
+</article>
