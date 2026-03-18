@@ -12,9 +12,9 @@ primary_url="https://forms.cloud.microsoft/e/mW2fKYCNkq"
 primary_label="Join the project"
 secondary_url="https://forms.cloud.microsoft/e/PCWVhmG7SN"
 secondary_label="Register for the workshop"
-tertiary_url="/documents/DRAIN_Informationen_zur_Mitarbeit.pdf"
+tertiary_url="documents/DRAIN_Informationen_zur_Mitarbeit.pdf"
 tertiary_label="Info document (DE)"
-image="/images/jigsaw.png"
+image="images/jigsaw.png"
 image_alt="Puzzle illustration for collaboration"
 >}}
 Farmers in Austria have the opportunity to participate in the DRAIN project. As a farmer, you know your land best. Through your active participation, you support the development of the digital application with local information directly from the field. This helps us close data gaps and improve our models, which also provides direct benefits to you.
