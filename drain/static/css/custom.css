@@ -76,6 +76,16 @@ a.btn{
     font-weight: 400;
 }
 
+#site-head #site-languages .btn-lang {
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 10px 22px rgba(57, 44, 33, 0.18);
+}
+
+#site-head #site-languages .btn-lang:not(.active) {
+    background-color: #8d6346;
+    color: #ffffff;
+}
+
 #site-head {
     overflow: hidden;
 }
