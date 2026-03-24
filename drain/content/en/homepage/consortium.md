@@ -29,7 +29,7 @@ description="Weather and meteorological data partner."
 >}}
 {{< logo_card
 name="AGES"
-image="images/AGES_logo.png"
+image="images/AGES_Logo.png"
 alt="AGES logo"
 url="https://www.ages.at"
 link_label="Visit AGES"
