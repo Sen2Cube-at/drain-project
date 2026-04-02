@@ -10,7 +10,8 @@ header_logo: "images/logo-alt.png"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
 header_headline: "DRAIN Projekt"
-header_subheadline: "Dynamische Risikokarte für Bodenerosion<span class=\"hero-banner\"><span class=\"hero-banner-kicker\">Workshop</span><span class=\"hero-banner-day\">25</span><span class=\"hero-banner-date\">März 2026</span><span class=\"hero-banner-divider\"></span><a class=\"hero-banner-link\" href=\"https://forms.cloud.microsoft/e/PCWVhmG7SN\" target=\"_blank\" rel=\"noopener\">Anmeldung</a></span>"
+header_subheadline: "Dynamische Risikokarte für Bodenerosion"
+# <span class=\"hero-banner\"><span class=\"hero-banner-kicker\">Workshop</span><span class=\"hero-banner-day\">25</span><span class=\"hero-banner-date\">März 2026</span><span class=\"hero-banner-divider\"></span><a class=\"hero-banner-link\" href=\"https://forms.cloud.microsoft/e/PCWVhmG7SN\" target=\"_blank\" rel=\"noopener\">Anmeldung</a></span>"
 
 # Add a 'Go back to top' item to the navigation menu
 # Title: name of navigation menu entry
