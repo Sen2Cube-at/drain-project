@@ -1,7 +1,7 @@
 ---
 title: "Möglichkeit zur Mitarbeit"
 navigation_menu_title: "Mitarbeit"
-weight: 35
+weight: 25
 header_menu: false
 section_theme: "neutral"
 affects_alternation: false
