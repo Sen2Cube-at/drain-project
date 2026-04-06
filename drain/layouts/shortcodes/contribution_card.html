@@ -1,0 +1,21 @@
+{{- $title := .Get "title" -}}
+{{- $alt := .Get "alt" | default $title -}}
+{{- $footer := .Get "footer" -}}
+{{- $image := false -}}
+{{- with .Get "image" -}}
+    {{- $image = resources.Get . -}}
+{{- end -}}
+
+<article class="contribution-section__card{{ if not $image }} contribution-section__card--placeholder{{ end }}">
+    <h3 class="contribution-section__card-title">{{ $title }}</h3>
+    <div class="contribution-section__card-media">
+        {{- with $image -}}
+        <img src="{{ .RelPermalink }}" alt="{{ $alt }}" />
+        {{- else -}}
+        <span class="contribution-section__card-placeholder">{{ $alt }}</span>
+        {{- end -}}
+    </div>
+    {{- with $footer }}
+    <div class="contribution-section__card-footer">{{ . | markdownify }}</div>
+    {{- end }}
+</article>

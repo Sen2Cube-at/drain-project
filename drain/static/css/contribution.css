@@ -1,0 +1,225 @@
+.post-holder.neutral {
+    background: #ffffff;
+    color: var(--section-light-text-color);
+}
+
+.post-holder.neutral .post-after,
+.post-after.neutral {
+    border-top-color: #ffffff;
+}
+
+:is(#contribution, #mitarbeit) {
+    --contribution-card-bg: #e3e3e3;
+    --contribution-card-radius: 2.4rem;
+    --contribution-card-padding-x: 1.15rem;
+    --contribution-card-padding-top: 1.55rem;
+    --contribution-card-padding-bottom: 1.25rem;
+    --contribution-card-min-height: 29.5rem;
+    --contribution-card-gap: 1.45rem;
+    --contribution-card-image-size: 7.4rem;
+    --contribution-card-copy-width: 16.25ch;
+    width: 80%;
+    max-width: 700px;
+}
+
+:is(#contribution, #mitarbeit) .post-header {
+    padding-bottom: 1.35rem;
+    text-align: left;
+}
+
+:is(#contribution, #mitarbeit) .post-title {
+    font-size: clamp(2.4rem, 3vw, 3.6rem);
+    font-weight: 500;
+    line-height: 1.08;
+    letter-spacing: -0.015em;
+    text-wrap: balance;
+}
+
+:is(#contribution, #mitarbeit) .post-content {
+    word-break: normal;
+    overflow-wrap: normal;
+    hyphens: none;
+}
+
+:is(#contribution, #mitarbeit) .post-content > p:first-of-type,
+:is(#contribution, #mitarbeit) .post-content > p:last-of-type {
+    max-width: 62ch;
+}
+
+:is(#contribution, #mitarbeit) .post-content > p:first-of-type {
+    margin-top: 0;
+    margin-bottom: 1.55rem;
+    font-size: clamp(1.7rem, 1.8vw, 2.1rem);
+    font-weight: 300;
+    line-height: 1.3;
+}
+
+:is(#contribution, #mitarbeit) .post-content > p:last-of-type {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: clamp(1.7rem, 1.8vw, 2.1rem);
+    line-height: 1.24;
+    text-wrap: pretty;
+}
+
+:is(#contribution, #mitarbeit) .post-content > p:last-of-type a {
+    text-decoration-thickness: 0.12em;
+    text-underline-offset: 0.14em;
+}
+
+.contribution-section__grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--contribution-card-gap);
+    margin: 0 0 2rem;
+    align-items: stretch;
+}
+
+.contribution-section__card {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-width: 0;
+    min-height: var(--contribution-card-min-height);
+    margin: 0;
+    padding: var(--contribution-card-padding-top) var(--contribution-card-padding-x) var(--contribution-card-padding-bottom);
+    border: 1px solid rgba(23, 23, 23, 0.04);
+    border-radius: var(--contribution-card-radius);
+    background: var(--contribution-card-bg);
+    box-sizing: border-box;
+    color: #171717;
+}
+
+.contribution-section__card-title {
+    max-width: var(--contribution-card-copy-width);
+    margin: 0 auto;
+    font-size: clamp(1.32rem, 1.08vw, 1.6rem);
+    font-weight: 400;
+    line-height: 1.16;
+    text-align: center;
+    text-wrap: balance;
+}
+
+.contribution-section__card-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 8rem;
+    margin: 0.85rem 0 0.7rem;
+}
+
+.contribution-section__card-media img {
+    display: block;
+    width: 100%;
+    max-width: var(--contribution-card-image-size);
+    max-height: var(--contribution-card-image-size);
+    height: auto;
+    object-fit: contain;
+}
+
+.contribution-section__card-placeholder {
+    color: rgba(23, 23, 23, 0.55);
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.contribution-section__card-footer {
+    max-width: var(--contribution-card-copy-width);
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: clamp(1.32rem, 1.08vw, 1.6rem);
+    font-weight: 400;
+    line-height: 1.16;
+    text-align: center;
+    text-wrap: pretty;
+}
+
+.contribution-section__card-footer p {
+    margin: 0;
+}
+
+@media only screen and (max-width: 900px) {
+    :is(#contribution, #mitarbeit) {
+        --contribution-card-radius: 2rem;
+        --contribution-card-padding-x: 1.05rem;
+        --contribution-card-padding-top: 1.35rem;
+        --contribution-card-padding-bottom: 1.1rem;
+        --contribution-card-min-height: 24rem;
+        --contribution-card-gap: 1.15rem;
+        --contribution-card-image-size: 6.2rem;
+        --contribution-card-copy-width: 16.75ch;
+    }
+
+    .contribution-section__grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .contribution-section__card-title {
+        font-size: 1.2rem;
+    }
+
+    .contribution-section__card-media {
+        min-height: 6.8rem;
+        margin: 0.7rem 0 0.55rem;
+    }
+
+    .contribution-section__card-footer {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    :is(#contribution, #mitarbeit) {
+        --contribution-card-radius: 1.7rem;
+        --contribution-card-padding-x: 1.2rem;
+        --contribution-card-padding-top: 1.2rem;
+        --contribution-card-padding-bottom: 1.05rem;
+        --contribution-card-gap: 0.95rem;
+        --contribution-card-image-size: 5.3rem;
+        --contribution-card-copy-width: 22ch;
+        width: auto;
+        max-width: none;
+    }
+
+    :is(#contribution, #mitarbeit) .post-title {
+        font-size: 2rem;
+        line-height: 1.08;
+    }
+
+    :is(#contribution, #mitarbeit) .post-content > p:first-of-type,
+    :is(#contribution, #mitarbeit) .post-content > p:last-of-type {
+        font-size: 1.45rem;
+        line-height: 1.28;
+    }
+
+    .contribution-section__grid {
+        grid-template-columns: 1fr;
+        margin-bottom: 1.6rem;
+    }
+
+    .contribution-section__card {
+        grid-template-rows: auto auto auto;
+        min-height: 0;
+    }
+
+    .contribution-section__card-title {
+        max-width: var(--contribution-card-copy-width);
+        margin: 0 auto;
+        font-size: 1.14rem;
+        line-height: 1.18;
+        text-align: center;
+    }
+
+    .contribution-section__card-media {
+        min-height: 0;
+        margin: 0.7rem 0 0.55rem;
+    }
+
+    .contribution-section__card-footer {
+        max-width: var(--contribution-card-copy-width);
+        font-size: 1.08rem;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
