@@ -1,9 +1,14 @@
 {{- $primaryURL := .Get "primary_url" -}}
 {{- $secondaryURL := .Get "secondary_url" -}}
 {{- $tertiaryURL := .Get "tertiary_url" -}}
+{{- $image := .Get "image" -}}
 {{- $primaryExternal := or (strings.HasPrefix $primaryURL "http://") (strings.HasPrefix $primaryURL "https://") -}}
 {{- $secondaryExternal := or (strings.HasPrefix $secondaryURL "http://") (strings.HasPrefix $secondaryURL "https://") -}}
 {{- $tertiaryExternal := or (strings.HasPrefix $tertiaryURL "http://") (strings.HasPrefix $tertiaryURL "https://") -}}
+{{- $primaryHref := partial "normalize_news_url.html" (dict "url" $primaryURL "allowAnchor" true) -}}
+{{- $secondaryHref := partial "normalize_news_url.html" (dict "url" $secondaryURL "allowAnchor" true) -}}
+{{- $tertiaryHref := partial "normalize_news_url.html" (dict "url" $tertiaryURL "allowAnchor" true) -}}
+{{- $imageSrc := partial "normalize_news_url.html" (dict "url" $image) -}}
 
 <article class="news-featured">
     <div class="news-featured__content">
@@ -19,20 +24,20 @@
 
         <div class="news-featured__actions">
             {{ with $primaryURL }}
-                <a class="news-action news-action--primary" href="{{ . | safeURL }}"{{ if $primaryExternal }} target="_blank" rel="noopener"{{ end }}>{{ $.Get "primary_label" }}</a>
+                <a class="news-action news-action--primary" href="{{ $primaryHref | safeURL }}"{{ if $primaryExternal }} target="_blank" rel="noopener"{{ end }}>{{ $.Get "primary_label" }}</a>
             {{ end }}
             {{ with $secondaryURL }}
-                <a class="news-action news-action--secondary" href="{{ . | safeURL }}"{{ if $secondaryExternal }} target="_blank" rel="noopener"{{ end }}>{{ $.Get "secondary_label" }}</a>
+                <a class="news-action news-action--secondary" href="{{ $secondaryHref | safeURL }}"{{ if $secondaryExternal }} target="_blank" rel="noopener"{{ end }}>{{ $.Get "secondary_label" }}</a>
             {{ end }}
             {{ with $tertiaryURL }}
-                <a class="news-action news-action--ghost" href="{{ . | safeURL }}"{{ if $tertiaryExternal }} target="_blank" rel="noopener"{{ end }}>{{ $.Get "tertiary_label" }}</a>
+                <a class="news-action news-action--ghost" href="{{ $tertiaryHref | safeURL }}"{{ if $tertiaryExternal }} target="_blank" rel="noopener"{{ end }}>{{ $.Get "tertiary_label" }}</a>
             {{ end }}
         </div>
     </div>
 
-    {{ with .Get "image" }}
+    {{ with $image }}
         <div class="news-featured__media">
-            <img src="{{ . | safeURL }}" alt="{{ $.Get "image_alt" }}" />
+            <img src="{{ $imageSrc | safeURL }}" alt="{{ $.Get "image_alt" }}" />
         </div>
     {{ end }}
 </article>

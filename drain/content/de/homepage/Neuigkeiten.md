@@ -12,9 +12,9 @@ primary_url="#mitarbeit"
 primary_label="Beim Projekt mitmachen"
 secondary_url="#mitarbeit"
 secondary_label="Möglichkeit zur Mitarbeit"
-tertiary_url="documents/DRAIN_Informationen_zur_Mitarbeit.pdf"
+tertiary_url="/documents/DRAIN_Informationen_zur_Mitarbeit.pdf"
 tertiary_label="Infodokument"
-image="images/jigsaw.png"
+image="/images/jigsaw.png"
 image_alt="Puzzle-Illustration für Zusammenarbeit"
 >}}
 Für alle Landwirt:innen in Österreich gibt es die Möglichkeit am DRAIN Projekt mitzuarbeiten! Als Landwirt:in kennen Sie Ihre Flächen am besten. Durch Ihre aktive Mitarbeit unterstützen Sie die Entwicklung der digitalen Anwendung mit lokalen Informationen direkt vor Ort. Dadurch können wir Datenlücken schließen und unsere Modelle verbessern, wodurch auch Sie einen direkten Nutzen daraus ziehen.
