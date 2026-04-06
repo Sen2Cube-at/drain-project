@@ -70,16 +70,6 @@ a.btn{
     color: white!important;
 }
 
-.post-holder.neutral {
-    background: #ffffff;
-    color: var(--section-light-text-color);
-}
-
-.post-holder.neutral .post-after,
-.post-after.neutral {
-    border-top-color: #ffffff;
-}
-
 #site-head .blog-description {
     /* Match hero subheadline to the main headline's font family/weight */
     font-family: inherit;
@@ -437,120 +427,6 @@ a.btn{
     color: var(--highlight);
 }
 
-#contribution,
-#mitarbeit {
-    width: min(94%, 118rem);
-    max-width: 118rem;
-}
-
-#contribution .post-header,
-#mitarbeit .post-header {
-    padding-bottom: 1.6rem;
-    text-align: left;
-}
-
-#contribution .post-title,
-#mitarbeit .post-title {
-    font-family: "Roboto Slab", serif;
-    font-size: clamp(2.6rem, 3vw, 3.8rem);
-    font-weight: 700;
-    line-height: 1.12;
-}
-
-#contribution .post-content > p:first-of-type,
-#mitarbeit .post-content > p:first-of-type,
-#contribution .post-content > p:last-of-type,
-#mitarbeit .post-content > p:last-of-type {
-    max-width: 88rem;
-}
-
-#contribution .post-content > p:first-of-type,
-#mitarbeit .post-content > p:first-of-type {
-    margin-top: 0;
-    margin-bottom: 1.8rem;
-    font-size: clamp(1.8rem, 1.8vw, 2.3rem);
-    font-weight: 300;
-    line-height: 1.28;
-}
-
-.contribution-section__grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    align-items: stretch;
-    gap: 2.2rem;
-    margin: 0 0 2.4rem;
-}
-
-.contribution-section__card {
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    min-height: 43rem;
-    padding: 2rem 1.8rem 1.7rem;
-    border: none;
-    border-radius: 3.2rem;
-    background: #e3e3e3;
-    box-shadow: none;
-    color: #171717;
-}
-
-.contribution-section__card-title {
-    margin: 0;
-    font-size: clamp(1.45rem, 1.3vw, 1.8rem);
-    font-weight: 700;
-    line-height: 1.2;
-    text-align: center;
-}
-
-.contribution-section__card-media {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1 1 auto;
-    min-height: 14rem;
-    margin: 1.5rem 0 1.2rem;
-}
-
-.contribution-section__card-media img {
-    display: block;
-    width: 100%;
-    max-width: 12rem;
-    max-height: 12rem;
-    height: auto;
-    object-fit: contain;
-}
-
-.contribution-section__card-placeholder {
-    color: rgba(31, 36, 39, 0.6);
-    font-size: 1.8rem;
-}
-
-.contribution-section__card-footer {
-    margin-top: auto;
-    font-size: 0.85em;
-    font-weight: 400;
-    line-height: 1.15;
-    text-align: left;
-}
-
-.contribution-section__card-footer p {
-    margin: 0;
-}
-
-#contribution .post-content > p:last-of-type,
-#mitarbeit .post-content > p:last-of-type {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: clamp(1.8rem, 1.8vw, 2.3rem);
-    line-height: 1.25;
-}
-
-#contribution .post-content > p:last-of-type a,
-#mitarbeit .post-content > p:last-of-type a {
-    text-decoration-thickness: 0.12em;
-    text-underline-offset: 0.14em;
-}
-
 .consortium-grid {
     display: flex;
     flex-direction: column;
@@ -708,11 +584,6 @@ a.btn{
         order: -1;
     }
 
-    .contribution-section__grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 1.8rem;
-    }
-
     .consortium-card {
         grid-template-columns: 1fr;
         gap: 0.8rem;
@@ -732,40 +603,6 @@ a.btn{
     .news-featured {
         padding: 1.35rem;
         border-radius: 0 24px 24px 0;
-    }
-
-    #contribution,
-    #mitarbeit {
-        width: 88%;
-    }
-
-    #contribution .post-header,
-    #mitarbeit .post-header {
-        padding-bottom: 1.4rem;
-    }
-
-    #contribution .post-content > p:first-of-type,
-    #mitarbeit .post-content > p:first-of-type,
-    #contribution .post-content > p:last-of-type,
-    #mitarbeit .post-content > p:last-of-type {
-        font-size: 1.9rem;
-    }
-
-    .contribution-section__grid {
-        grid-template-columns: 1fr;
-        gap: 1.2rem;
-    }
-
-    .contribution-section__card {
-        min-height: 0;
-        padding: 1.6rem 1.25rem 1.3rem;
-        border-radius: 2.4rem;
-        flex-basis: 100%;
-    }
-
-    .contribution-section__card-media {
-        min-height: 11.5rem;
-        margin: 1.15rem 0 1rem;
     }
 
     .news-featured__actions {
