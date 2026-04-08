@@ -1,8 +1,8 @@
 ---
-title: "Options for contribution"
+title: "Contribution"
 navigation_menu_title: "Contribution"
 weight: 25
-header_menu: false
+header_menu: true
 section_theme: "neutral"
 affects_alternation: false
 ---

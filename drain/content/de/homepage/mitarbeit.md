@@ -1,8 +1,8 @@
 ---
-title: "Möglichkeit zur Mitarbeit"
+title: "Mitarbeit"
 navigation_menu_title: "Mitarbeit"
 weight: 25
-header_menu: false
+header_menu: true
 section_theme: "neutral"
 affects_alternation: false
 ---
