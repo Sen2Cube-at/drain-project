@@ -8,7 +8,7 @@ header_menu: true
 date="12.03.2026"
 title="Mitarbeit und zweiter Workshop"
 location="25.03.2026 · Online und vor Ort in Fernitz-Mellach"
-primary_url="#mitarbeit"
+primary_url="https://forms.cloud.microsoft/e/mW2fKYCNkq"
 primary_label="Beim Projekt mitmachen"
 secondary_url="#mitarbeit"
 secondary_label="Möglichkeit zur Mitarbeit"

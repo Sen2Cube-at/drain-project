@@ -8,7 +8,7 @@ header_menu: true
 date="12 March 2026"
 title="Participation and second workshop"
 location="25 March 2026 · Online and in person in Fernitz-Mellach"
-primary_url="#contribution"
+primary_url="https://forms.cloud.microsoft/e/mW2fKYCNkq"
 primary_label="Join the project"
 secondary_url="#contribution"
 secondary_label="Options for contribution"
