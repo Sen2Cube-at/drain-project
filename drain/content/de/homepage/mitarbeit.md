@@ -30,4 +30,4 @@ footer="Kleine Aufwandsentschädigung"
 >}}
 {{< /contribution_grid >}}
 
-**Interesse? Kontaktieren Sie uns mit den [Kontaktinformationen unten](#kontakt)!**
+**Interesse? [Interesse? Mach mit beim Projekt!](https://forms.cloud.microsoft/e/mW2fKYCNkq)**

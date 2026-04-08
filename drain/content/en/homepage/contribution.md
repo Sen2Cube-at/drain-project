@@ -30,4 +30,4 @@ footer="Small compensation"
 >}}
 {{< /contribution_grid >}}
 
-**Interest? Contact us using the [contact information below](#contact)!**
+**Interested? [Join the project!](https://forms.cloud.microsoft/e/mW2fKYCNkq)**
