@@ -4,6 +4,19 @@ weight: 30
 header_menu: true
 ---
 
+{{< news_item
+date="25.03.2026"
+title="Zweiter Nutzerworkshop in Fernitz-Mellach"
+image="/images/second-user-workshop-2026.jpg"
+image_alt="Teilnehmende beim zweiten DRAIN Nutzerworkshop in Fernitz-Mellach"
+link_url="https://www.linkedin.com/feed/update/urn:li:activity:7445381725477650432/"
+link_label="Auf LinkedIn lesen"
+>}}
+Der zweite Nutzerworkshop fand am 25. März in Fernitz-Mellach statt, mit Teilnehmenden vor Ort und online. Wir hatten einen lebhaften und aufschlussreichen Austausch mit lokalen Landwirten, bei dem wir erste Konzepte für ein integriertes Dashboard vorgestellt haben, das Wettervorhersagen, Erdbeobachtungsdaten, In-situ-Messungen und einen Bodenerosions-Risikomonitor kombiniert.
+
+Wir sind besonders dankbar für das wertvolle Feedback, das wir erhalten haben. Es wird eine wichtige Rolle bei der Gestaltung der nächsten Projektschritte spielen. Landwirte in ganz Österreich haben weiterhin die Möglichkeit, sich [zu beteiligen](#mitarbeit).
+{{< /news_item >}}
+
 {{< news_featured
 date="12.03.2026"
 title="Mitarbeit und zweiter Workshop"
