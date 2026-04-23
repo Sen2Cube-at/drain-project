@@ -11,7 +11,7 @@ header_logo: "images/logo-alt.png"
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
 header_headline: "DRAIN Project"
 header_subheadline: "Using Earth observation, weather, and in-situ data to protect our soils"
-#<span class=\"hero-banner\"><span class=\"hero-banner-kicker\">Workshop</span><span class=\"hero-banner-day\">25</span><span class=\"hero-banner-date\">March 2026</span><span class=\"hero-banner-divider\"></span><a class=\"hero-banner-link\" href=\"https://forms.cloud.microsoft/e/PCWVhmG7SN\" target=\"_blank\" rel=\"noopener\">Sign up</a></span>"
+header_banner: "<span class=\"hero-banner\"><span class=\"hero-banner-kicker\">For Farmers</span><span class=\"hero-banner-date\">Across Austria</span><span class=\"hero-banner-divider\"></span><a class=\"hero-banner-link\" href=\"https://forms.cloud.microsoft/e/mW2fKYCNkq\" target=\"_blank\" rel=\"noopener\">Get Involved</a></span>"
 
 # Add a 'Go back to top' item to the navigation menu
 # Title: name of navigation menu entry

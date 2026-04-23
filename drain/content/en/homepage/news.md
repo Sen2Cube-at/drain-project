@@ -4,11 +4,24 @@ weight: 30
 header_menu: true
 ---
 
+{{< news_item
+date="25 March 2026"
+title="2nd user workshop in Fernitz-Mellach"
+image="/images/second-user-workshop-2026.jpg"
+image_alt="Participants at the second DRAIN user workshop in Fernitz-Mellach"
+link_url="https://www.linkedin.com/feed/update/urn:li:activity:7445381725477650432/"
+link_label="Read on LinkedIn"
+>}}
+The second user workshop took place on March 25th in Fernitz-Mellach, with participants joining in-person and online. We had a lively and insightful exchange with local farmers, where we presented initial concepts for an integrated dashboard combining weather forecasts, earth observation data, in-situ measurements, and a soil erosion risk monitor.
+
+We are especially grateful for the valuable feedback we received. It will play a key role in shaping the next steps of the project. Farmers across Austria still have the opportunity to [get involved](#contribution).
+{{< /news_item >}}
+
 {{< news_featured
 date="12 March 2026"
 title="Participation and second workshop"
 location="25 March 2026 · Online and in person in Fernitz-Mellach"
-primary_url="#contribution"
+primary_url="https://forms.cloud.microsoft/e/mW2fKYCNkq"
 primary_label="Join the project"
 secondary_url="#contribution"
 secondary_label="Options for contribution"
@@ -23,8 +36,6 @@ Your participation helps us, but it also offers advantages for you: twice a year
 
 Register here to contribute to the project:
 {{< /news_featured >}}
-
-
 
 {{< news_item
 date="03 December 2025"

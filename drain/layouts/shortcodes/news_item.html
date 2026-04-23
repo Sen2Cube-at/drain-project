@@ -1,9 +1,16 @@
 {{- $linkURL := .Get "link_url" -}}
+{{- $image := .Get "image" -}}
 {{- $linkExternal := or (strings.HasPrefix $linkURL "http://") (strings.HasPrefix $linkURL "https://") -}}
+{{- $imageSrc := partial "normalize_news_url.html" (dict "url" $image) -}}
 
 <article class="news-item">
     {{ with .Get "date" }}<p class="news-item__date">{{ . }}</p>{{ end }}
     {{ with .Get "title" }}<h3 class="news-item__title">{{ . }}</h3>{{ end }}
+    {{ with $image }}
+        <div class="news-item__media" style="width: 100%; max-width: none; margin: 1.15rem 0 1rem; border-radius: 16px; overflow: hidden; line-height: 0;">
+            <img src="{{ $imageSrc | safeURL }}" alt="{{ $.Get "image_alt" }}" style="display: block; width: 100%; height: auto; border-radius: 16px; clip-path: inset(0 round 16px);" />
+        </div>
+    {{ end }}
     <div class="news-item__body">{{ .Inner | markdownify }}</div>
     {{ with $linkURL }}
         <a class="news-item__link" href="{{ . | safeURL }}"{{ if $linkExternal }} target="_blank" rel="noopener"{{ end }}>{{ $.Get "link_label" }}</a>
