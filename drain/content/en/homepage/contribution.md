@@ -31,3 +31,8 @@ footer="Small compensation"
 {{< /contribution_grid >}}
 
 **Interested? [Join the project!](https://www.askallo.com/s/drain_anmeldung)**
+<<<<<<< HEAD
+=======
+
+Important: Please always share this original link, not the one that appears in the browser after clicking it.
+>>>>>>> content-update

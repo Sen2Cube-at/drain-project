@@ -31,3 +31,8 @@ footer="Kleine Aufwandsentschädigung"
 {{< /contribution_grid >}}
 
 **Interesse? [Mach mit beim Projekt!](https://www.askallo.com/s/drain_anmeldung)**
+<<<<<<< HEAD
+=======
+
+Wichtig! Bitte immer diesen "Originallink" weiterleiten und nicht den, der nach dem Anklicken im Browser erscheint.
+>>>>>>> content-update
