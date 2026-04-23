@@ -21,7 +21,7 @@ Wir sind besonders dankbar für das wertvolle Feedback, das wir erhalten haben. 
 date="12.03.2026"
 title="Mitarbeit und zweiter Workshop"
 location="25.03.2026 · Online und vor Ort in Fernitz-Mellach"
-primary_url="https://forms.cloud.microsoft/e/mW2fKYCNkq"
+primary_url="https://www.askallo.com/s/drain_anmeldung"
 primary_label="Beim Projekt mitmachen"
 secondary_url="#mitarbeit"
 secondary_label="Möglichkeit zur Mitarbeit"

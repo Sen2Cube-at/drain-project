@@ -21,7 +21,7 @@ We are especially grateful for the valuable feedback we received. It will play a
 date="12 March 2026"
 title="Participation and second workshop"
 location="25 March 2026 · Online and in person in Fernitz-Mellach"
-primary_url="https://forms.cloud.microsoft/e/mW2fKYCNkq"
+primary_url="https://www.askallo.com/s/drain_anmeldung"
 primary_label="Join the project"
 secondary_url="#contribution"
 secondary_label="Options for contribution"

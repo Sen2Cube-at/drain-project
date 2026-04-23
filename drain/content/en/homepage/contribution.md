@@ -30,4 +30,4 @@ footer="Small compensation"
 >}}
 {{< /contribution_grid >}}
 
-**Interested? [Join the project!](https://forms.cloud.microsoft/e/mW2fKYCNkq)**
+**Interested? [Join the project!](https://www.askallo.com/s/drain_anmeldung)**

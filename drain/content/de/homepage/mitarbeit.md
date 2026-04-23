@@ -30,4 +30,4 @@ footer="Kleine Aufwandsentschädigung"
 >}}
 {{< /contribution_grid >}}
 
-**Interesse? [Mach mit beim Projekt!](https://forms.cloud.microsoft/e/mW2fKYCNkq)**
+**Interesse? [Mach mit beim Projekt!](https://www.askallo.com/s/drain_anmeldung)**
