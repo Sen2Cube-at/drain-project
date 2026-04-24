@@ -30,7 +30,9 @@ footer="Small compensation"
 >}}
 {{< /contribution_grid >}}
 
-**Interested? [Join the project!](https://www.askallo.com/s/drain_anmeldung)**
+**Interested? Join the project!**
+
+https://www.askallo.com/s/drain_anmeldung
 
 Important! Please always share this original link, not the one that appears in the browser after clicking it.
 
