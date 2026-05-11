@@ -176,6 +176,42 @@ a.btn{
     border-color: #f3fffe;
 }
 
+.page-datenschutzerklaerung .post-title {
+    font-size: clamp(1.5rem, 2.5vw, 3.5rem);
+
+}
+
+.page-datenschutzerklaerung .post-content a[href^="mailto:"],
+.page-datenschutzerklaerung .post-content .obfuscated-email {
+    display: inline;
+    padding: 0.05em 0.28em;
+    border-radius: 4px;
+    color: var(--cover-text-color);
+    font-weight: 400;
+}
+
+.page-datenschutzerklaerung .post-content a[href^="mailto:"]:hover,
+.page-datenschutzerklaerung .post-content .obfuscated-email:hover {
+    background: rgba(125, 88, 60, 0.18);
+    color: var(--highlight);
+}
+
+.page-datenschutzerklaerung .post-content ul.fa-ul {
+    margin-left: 0;
+    padding-left: 1.35em;
+    list-style-position: outside;
+    list-style-type: disc;
+}
+
+.page-datenschutzerklaerung .post-content ul.fa-ul > li {
+    position: static;
+    margin-left: 0;
+}
+
+.page-datenschutzerklaerung .post-content .fa-li {
+    display: none;
+}
+
 @media only screen and (max-width: 500px) {
     #site-head .hero-banner-wrap {
         top: 0.85rem;
@@ -201,6 +237,10 @@ a.btn{
 
     #site-head .hero-banner-link {
         font-size: 0.92rem;
+    }
+
+    .page-datenschutzerklaerung .post-title {
+        font-size: 2.55rem;
     }
 }
 
