@@ -23,9 +23,10 @@ document.addEventListener("DOMContentLoaded", function () {
         var count = imgs.length;
 
         function show(index) {
-            imgs.forEach(function (img) { img.classList.toggle("is-active", Number(img.dataset.index) === index); });
-            dots.forEach(function (dot) { dot.classList.toggle("is-active", Number(dot.dataset.index) === index); });
-            media.dataset.index = index;
+            var wrapped = ((index % count) + count) % count;
+            imgs.forEach(function (img) { img.classList.toggle("is-active", Number(img.dataset.index) === wrapped); });
+            dots.forEach(function (dot) { dot.classList.toggle("is-active", Number(dot.dataset.index) === wrapped); });
+            media.dataset.index = wrapped;
         }
 
         dots.forEach(function (dot) {
@@ -35,8 +36,50 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         });
 
+        var justSwiped = false;
+
         media.addEventListener("click", function () {
-            show((Number(media.dataset.index) + 1) % count);
+            if (justSwiped) {
+                justSwiped = false;
+                return;
+            }
+            show(Number(media.dataset.index) + 1);
+        });
+
+        var touchStartX = null;
+        var touchStartY = null;
+        var isHorizontalSwipe = false;
+
+        media.addEventListener("touchstart", function (event) {
+            var touch = event.touches[0];
+            touchStartX = touch.clientX;
+            touchStartY = touch.clientY;
+            isHorizontalSwipe = false;
+        }, { passive: true });
+
+        media.addEventListener("touchmove", function (event) {
+            if (touchStartX === null) return;
+            var touch = event.touches[0];
+            var deltaX = touch.clientX - touchStartX;
+            var deltaY = touch.clientY - touchStartY;
+            if (!isHorizontalSwipe && Math.abs(deltaX) > 10 && Math.abs(deltaX) > Math.abs(deltaY)) {
+                isHorizontalSwipe = true;
+            }
+            if (isHorizontalSwipe) {
+                event.preventDefault();
+            }
+        }, { passive: false });
+
+        media.addEventListener("touchend", function (event) {
+            if (touchStartX === null) return;
+            var touch = event.changedTouches[0];
+            var deltaX = touch.clientX - touchStartX;
+            if (isHorizontalSwipe && Math.abs(deltaX) > 40) {
+                justSwiped = true;
+                show(Number(media.dataset.index) + (deltaX < 0 ? 1 : -1));
+            }
+            touchStartX = null;
+            touchStartY = null;
         });
     });
 });
