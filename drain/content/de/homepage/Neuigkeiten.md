@@ -5,6 +5,27 @@ header_menu: true
 ---
 
 {{< news_item
+date="22.09.2026"
+title="Sommer 2026: zwischen extremer Trockenheit und Starkregen"
+image="/images/summer-2026-precipitation-map.jpg"
+image_alt="Karte von Österreich mit den maximalen stündlichen Niederschlagssummen im Sommer 2026"
+image_label="Karte"
+image2="/images/summer-2026-precipitation-table.jpg"
+image2_alt="Tabelle der zehn österreichischen Wetterstationen mit der höchsten 10-minütigen Niederschlagssumme im Sommer 2026, angeführt von Neudorf bei Landsee mit 47,9 mm"
+image2_label="Tabelle"
+link_url="https://www.linkedin.com/feed/update/urn:li:activity:7508228104197148672/"
+link_label="Auf LinkedIn lesen"
+>}}
+Der Sommer 2026 geht als der wärmste Sommer seit Messbeginn in die österreichische Wettergeschichte ein. Mit **41,2 Grad in Bad Deutsch-Altenburg** wurde ein neuer Österreich-Rekord aufgestellt und erstmals wurden in allen drei Sommermonaten Temperaturen von über 40 Grad gemessen. Gleichzeitig fielen österreichweit rund **30% weniger Niederschlag** als im Klimamittel.
+
+Während der Sommer vor allem durch die extreme Hitze in Erinnerung bleiben wird, gab es regional aber auch das andere Extrem: **kräftige Gewitter mit intensivem Starkregen**. In Neudorf bei Landsee fielen am 1. Juli innerhalb von nur 10 Minuten **47,9 Liter pro Quadratmeter**.
+
+Gerade nach langen Trockenphasen können solche Starkregenereignisse für Böden problematisch sein. Auf ungeschützten oder verdichteten Böden kann das Wasser nicht ausreichend versickern, nur oberflächlich abfließen und somit zu Bodenerosion führen.
+
+Der Sommer 2026 zeigt damit auch: Extremwetter hat viele Gesichter und **Starkregen spielt auch in einem insgesamt sehr trockenen Sommer eine erhebliche Rolle**. Umso wichtiger ist es für Landwirt:innen, rechtzeitig über das Bodenerosionsrisiko informiert zu sein, um entsprechende Maßnahmen zum Schutz ihrer Böden treffen zu können.
+{{< /news_item >}}
+
+{{< news_item
 date="25.03.2026"
 title="Zweiter Nutzerworkshop in Fernitz-Mellach"
 image="/images/second-user-workshop-2026.jpg"

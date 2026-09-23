@@ -5,6 +5,27 @@ header_menu: true
 ---
 
 {{< news_item
+date="22 September 2026"
+title="Summer 2026: Between Extreme Drought and Heavy Rainfall"
+image="/images/summer-2026-precipitation-map.jpg"
+image_alt="Map of Austria showing the maximum hourly precipitation sums recorded in summer 2026"
+image_label="Map"
+image2="/images/summer-2026-precipitation-table.jpg"
+image2_alt="Table of the ten Austrian weather stations with the highest 10-minute precipitation sums in summer 2026, led by Neudorf bei Landsee with 47.9 mm"
+image2_label="Table"
+link_url="https://www.linkedin.com/feed/update/urn:li:activity:7508228104197148672/"
+link_label="Read on LinkedIn"
+>}}
+Summer 2026 will go down in Austrian history as the warmest summer since records began. With **41.2°C in Bad Deutsch-Altenburg**, a new Austrian temperature record was set. For the first time, temperatures above 40°C were recorded in all three summer months. At the same time, Austria received around **30% less rainfall** than the climatological average.
+
+Although we will likely remember this summer mainly for its extreme heat, some regions also experienced the opposite: **strong thunderstorms with heavy rainfall**. In Neudorf bei Landsee, **47.9 litres of rain per square metre** fell in just 10 minutes on 1 July.
+
+Heavy rainfall can be a problem for soils, especially after long dry periods. On unprotected or compacted soils, water cannot soak into the ground fast enough but instead runs off the surface, potentially leading to soil erosion.
+
+Summer 2026 shows that extreme weather can take many forms and **heavy rainfall can be a serious issue even during an overall very dry summer**. This makes it important for farmers to receive timely information about soil erosion risk so they can take measures to protect their soils.
+{{< /news_item >}}
+
+{{< news_item
 date="25 March 2026"
 title="2nd user workshop in Fernitz-Mellach"
 image="/images/second-user-workshop-2026.jpg"
