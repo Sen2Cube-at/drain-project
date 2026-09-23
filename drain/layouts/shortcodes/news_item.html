@@ -1,15 +1,28 @@
 {{- $linkURL := .Get "link_url" -}}
 {{- $image := .Get "image" -}}
+{{- $image2 := .Get "image2" -}}
 {{- $linkExternal := or (strings.HasPrefix $linkURL "http://") (strings.HasPrefix $linkURL "https://") -}}
 {{- $imageSrc := partial "normalize_news_url.html" (dict "url" $image) -}}
+{{- $image2Src := partial "normalize_news_url.html" (dict "url" $image2) -}}
 
 <article class="news-item">
     {{ with .Get "date" }}<p class="news-item__date">{{ . }}</p>{{ end }}
     {{ with .Get "title" }}<h3 class="news-item__title">{{ . }}</h3>{{ end }}
     {{ with $image }}
+        {{ if $image2 }}
+        <div class="news-item__media news-item__media--carousel" data-index="0">
+            <img class="news-item__carousel-img is-active" data-index="0" src="{{ $imageSrc | safeURL }}" alt="{{ $.Get "image_alt" }}" />
+            <img class="news-item__carousel-img" data-index="1" src="{{ $image2Src | safeURL }}" alt="{{ $.Get "image2_alt" }}" />
+            <div class="news-item__carousel-dots">
+                <button type="button" class="news-item__carousel-dot is-active" data-index="0" aria-label="{{ $.Get "image_label" }}"></button>
+                <button type="button" class="news-item__carousel-dot" data-index="1" aria-label="{{ $.Get "image2_label" }}"></button>
+            </div>
+        </div>
+        {{ else }}
         <div class="news-item__media" style="width: 100%; max-width: none; margin: 1.15rem 0 1rem; border-radius: 16px; overflow: hidden; line-height: 0;">
             <img src="{{ $imageSrc | safeURL }}" alt="{{ $.Get "image_alt" }}" style="display: block; width: 100%; height: auto; border-radius: 16px; clip-path: inset(0 round 16px);" />
         </div>
+        {{ end }}
     {{ end }}
     <div class="news-item__body">{{ .Inner | markdownify }}</div>
     {{ with $linkURL }}
