@@ -37,8 +37,9 @@ jobs:
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
-      - name: Install Dart Sass
-        run: sudo snap install dart-sass
+      # Disabled: theme's css.Sass uses Hugo extended's built-in LibSass by default, so this unused snap download only causes failed deploys (https://gohugo.io/functions/css/sass/#transpiler).
+      # - name: Install Dart Sass
+      #   run: sudo snap install dart-sass
       - name: Checkout
         uses: actions/checkout@v4
         with:
