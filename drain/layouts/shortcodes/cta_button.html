@@ -1,0 +1,6 @@
+{{- $href := .Get "href" -}}
+{{- $external := or (strings.HasPrefix $href "http://") (strings.HasPrefix $href "https://") -}}
+
+<div class="cta-button-wrap">
+    <a class="cta-button" href="{{ $href | safeURL }}"{{ if $external }} target="_blank" rel="noopener"{{ end }}>{{ .Get "label" }}</a>
+</div>
